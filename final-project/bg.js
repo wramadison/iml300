@@ -25,4 +25,3 @@ function draw() {
   if (frameCount % 1000 == 0) {
 	background(0);
   }
-}
