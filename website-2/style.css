@@ -1,7 +1,14 @@
-.bg-photos{
- position: absolute;
-  width: 20%;
-  border-radius: 20px;
-  left: 1440px;
-  top: 700px;
+* {
+    font-family: "corp2.ttf";
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+.bg-photos {
+    position: relative;
+    width: 25%;
+}
+
+.about-text {
+    font-size: 40px;
 }
