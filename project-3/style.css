@@ -1,15 +1,13 @@
-body {
-    background-color: lime;
+* {
+    font-family: "Courier New", monospace;
+    text-align: center;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    /*    transition: width 2s, height 2s;*/
+.bg-photos {
+    position: relative;
+    width: 28%;
 }
 
-.zoom {
-    width: 400px;
-    height: 400px;
-    transition: width 2s, height 2s;
+.about-text {
+    font-size: 40px;
 }
