@@ -1,8 +1,17 @@
 * {
     font-family: "Courier New", monospace;
     text-align: center;
+    text-decoration: none;
+     animation: fadeIn 1s;
 }
-
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .bg-photos {
     position: relative;
     width: 28%;
@@ -11,6 +20,30 @@
 .about-text {
     font-size: 40px;
 }
-.background-text {
+.termination-text {
     font-size: 40px;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.term{
+background-color: red;
+}
+.border{
+
+
+}
+details > summary {
+  list-style: none;
+}
+.column {
+float: left;
+  width: 33.33%;
+  padding: 15px;
 }
