@@ -1,3 +1,38 @@
-canvas{
-    
+* {
+    font-family: "Courier New", monospace;
+    text-align: center;
+color: white;
+    animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+body{
+    background-image: radial-gradient(black,blue,black);
+    background-size: cover;
+}
+.typewriter {
+    overflow: hidden;
+    border-right: .15em black;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 2s steps(40, end),
+        blink-caret .75s step-end infinite;
+    font-size: 30px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
 }
