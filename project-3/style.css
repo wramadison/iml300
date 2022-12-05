@@ -1,49 +1,68 @@
 * {
     font-family: "Courier New", monospace;
     text-align: center;
-    text-decoration: none;
-     animation: fadeIn 1s;
+
+    animation: fadeIn 1s;
 }
+
 @-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.bg-photos {
-    position: relative;
-    width: 28%;
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.about-text {
+
+.intro {
+background-size: cover;
+ background-image: url(asset/professional.png);
+}
+
+.intro:hover {
+    background-image: url(asset/professional-invert.png);
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+.special:hover{
+    
+}
+.about{
+    background-color: red;
     font-size: 40px;
 }
-.termination-text {
-    font-size: 40px;
-}
-canvas {
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-.term{
-background-color: red;
-}
-.border{
 
+.typewriter {
+    overflow: hidden;
+    border-right: .15em black;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 2s steps(40, end),
+        blink-caret .75s step-end infinite;
+    font-size: 30px;
+}
 
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
 }
-details > summary {
-  list-style: none;
+
+.images{
+    filter: invert(0);
 }
-.column {
-float: left;
-  width: 33.33%;
-  padding: 15px;
+.images:hover{
+    filter:invert(1);
+}
+.bg{
+    background-color: red;
 }

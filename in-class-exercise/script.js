@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('.plant').click(function () {
-        $('.keys').toggle();
+    $('.keys').hover(function () {
+        $('.plant').toggle();
     });
     $('.flower').click(function () {
         $(this).toggleClass("zoom");

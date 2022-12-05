@@ -2,7 +2,7 @@ var t;
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
-  background(0);
+  background('red');
   stroke(0,0,255, 50);
   noFill();
   t = 0;
