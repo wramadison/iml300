@@ -2,14 +2,14 @@ var t;
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
-  background('red');
-  stroke(0,0,255, 50);
+  background('black');
+  stroke(90,0,255, 50);
   noFill();
   t = 0;
 }
 
 function draw() {
-  var x1 =  mouseX;
+  var x1 = mouseX;
   var x2 = width * noise(t + 20);
   var x3 = width * noise(t + 30);
   var x4 = width * noise(t + 40);
@@ -25,3 +25,4 @@ function draw() {
   if (frameCount % 1000 == 0) {
 	background(0);
   }
+}
